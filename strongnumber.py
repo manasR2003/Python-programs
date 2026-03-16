@@ -9,7 +9,7 @@ def strong(num):
         sum+=fact
         num//=10
     return sum
-num1=int(input('enterr number'))
+num1=int(input('enter number'))
 print('strong number' if strong(num1)==num1 else 'not a strong number')
 
 #using recursion
