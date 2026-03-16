@@ -21,6 +21,6 @@ def Strong(num,sum=0):
     if num==0:
         return sum
     return Strong(num//10,sum+Fact(num%10))
-num2=int(input('enterr number'))
+num2=int(input('enter number'))
 print('strong number' if Strong(num2)==num2 else 'not a strong number')
 
